@@ -24,6 +24,12 @@ __SYD.main_pop_tab = () =>{
                     currentImgFrame:"",
                     data:[
                             {
+                                title: "Tax Tracker",
+                                content1: "Stay ahead of hidden fees with bnbbot’s built-in tax tracker. Every trade is automatically analyzed so you know exactly how much is going to token taxes, liquidity, or developer wallets.",
+                                content2: "No more guessing games or getting blindsided by unfair tokenomics. With clear, real-time insights into transaction taxes, you trade smarter, avoid scams, and keep more of your profits where they belong — in your wallet.",
+                                img: "tax_tracker.png"
+                            },
+                            {
                                 title: "AI-Powered Trade Automation",
                                 content1: "bnbbot is built to act like a full-time professional trader powered by machine intelligence. It evaluates indicators, market sentiment, and price action in real time to determine the best entry and exit points for your trades.",
                                 content2:"By adapting to changing market conditions, bnbbot minimizes emotional bias and maximizes precision. Whether the market is surging or slumping, your AI agent stays focused, disciplined, and always active — giving you a competitive edge around the clock.",

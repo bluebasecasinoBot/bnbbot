@@ -129,35 +129,38 @@ __SYD.p3_tabs = () =>{
             style:"display:flex;gap:50px;height:fit-content;width:100%;justify-content:center;flex-wrap:wrap;margin-top:15px;"
         },
         [
+             __SYD.p3_tab(
+                {content:` Download a Solana-compatible wallet like Phantom or Solflare to hold your $ALITA tokens.` ,title:`Tax Tracker` , img:"" , index:0}
+            ),
             __SYD.p3_tab(
-                {content:` Download a Solana-compatible wallet like Phantom or Solflare to hold your $ALITA tokens.` ,title:`AI-Powered Trade Automation` , img:"trade_auto.jpg" , index:0}
+                {content:` Download a Solana-compatible wallet like Phantom or Solflare to hold your $ALITA tokens.` ,title:`AI-Powered Trade Automation` , img:"trade_auto.jpg" , index:1}
             ),
             __SYD.p3_tab({
-                content:`Buy SOL on a centralized exchange (like Binance or Coinbase), then transfer it to your Solana wallet.`,title:`Telegram Bot Integration` , img:"bot_int.jpg" , index:1
+                content:`Buy SOL on a centralized exchange (like Binance or Coinbase), then transfer it to your Solana wallet.`,title:`Telegram Bot Integration` , img:"bot_int.jpg" , index:2
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Smart Market Insights` , img:"market_insight.jpg" , index:2
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Smart Market Insights` , img:"market_insight.jpg" , index:3
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Custom Strategy Builder` , img:"strategy_builder.jpg" , index:3
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Custom Strategy Builder` , img:"strategy_builder.jpg" , index:4
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Backtesting Engine` , img:"backtesting.jpg" , index:4
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Backtesting Engine` , img:"backtesting.jpg" , index:5
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:` Multi-Exchange Support` , img:"multi_swap.jpg" , index:5
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:` Multi-Exchange Support` , img:"multi_swap.jpg" , index:6
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`24/7 Autonomous Operation` , img:"autonomy.jpg" , index:6
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`24/7 Autonomous Operation` , img:"autonomy.jpg" , index:7
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Risk Management Tools` , img:"risk_manage.jpg" , index:7
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Risk Management Tools` , img:"risk_manage.jpg" , index:8
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Plug & Play Templates` , img:"plug_play.jpg" , index:8
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Plug & Play Templates` , img:"plug_play.jpg" , index:9
             }),
             __SYD.p3_tab({
-                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Web + Mobile Access` , img:"web_mobile.jpg" , index:9
+                content:`Visit a supported DEX (like Jupiter or Raydium), connect your wallet, and swap SOL for $ALITA instantly.`,title:`Web + Mobile Access` , img:"web_mobile.jpg" , index:10
             })
         ]
     )
