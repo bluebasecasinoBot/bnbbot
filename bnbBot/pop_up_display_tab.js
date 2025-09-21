@@ -140,8 +140,8 @@ __SYD.main_pop_tab__main = () =>{
             },
             mediaQuery:{
                 query:[
+                    {size:"<1000px" , prop:{breakVal:true}},
                     {size:"<500px" , prop:{mobilePadState:true , caTextSize:"13px"}},
-                    {size:"<1000px" , prop:{breakVal:true}}
                 ],
                 defState:{mobilePadState:false , caTextSize:"16px" , breakVal:false}
             }
@@ -202,7 +202,7 @@ __SYD.main_pop_top_cont = () =>{
             __c(
                 "div",
                 {
-                    style:`${__p(["main_pop_tab__main" , "breakVal"],false) ? "height:300px;width:300px" : "height:500px;width:500px"};display:flex;flex-direction:column;gap:20px;background-image:url(./assets/${__p(["main_pop_tab" , "currentImgFrame"],"")});border-radius:30px;`+__sC["thinBorder"](),
+                    style:`${__p(["main_pop_tab__main" , "breakVal"],false) ? "min-height:300px;width:300px" : "height:500px;width:500px"};display:flex;flex-direction:column;gap:20px;background-image:url(./assets/${__p(["main_pop_tab" , "currentImgFrame"],"")});border-radius:30px;`+__sC["thinBorder"](),
                     // class:"floatMainPic"
                 },[
                     // __c(
