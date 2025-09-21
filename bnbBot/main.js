@@ -42,17 +42,16 @@ __SYD.sub_container = () =>{
         [
             __SYD.navBar(),
             __SYD.p1(),
-            // __SYD.p2(),
             __SYD.p3(),
             __SYD.p4(),
             __SYD.c_r_p(),
             __SYD.community(),
-            // __SYD.p5(),
-            // // __SYD.p6(),
             __SYD.p7(),
             __SYD.footer_main_parent()
         ]
     )
 }
 
-__m(__SYD.container() , ()=>{manage_mediaQuery(window.innerWidth);});
+__m(__SYD.container() , ()=>{
+    manage_mediaQuery(window.innerWidth);
+});

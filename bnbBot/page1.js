@@ -54,8 +54,8 @@ __SYD.p1SubHeader = () =>{
             },
             mediaQuery:{
                 query:[
+                    {size:"<1000px" , prop:{breakVal:true}},
                     {size:"<500px" , prop:{mobilePadState:true , caTextSize:"13px"}},
-                    {size:"<1000px" , prop:{breakVal:true}}
                 ],
                 defState:{mobilePadState:false , caTextSize:"16px" , breakVal:false}
             }

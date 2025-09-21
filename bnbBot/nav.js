@@ -25,8 +25,8 @@ __SYD.navBar = () =>{
             },
             mediaQuery:{
                 query:[
-                    {size:"<400px" , prop:{mobilePadState:true}},
                     {size:"<1000px" , prop:{desktopMode:false}},
+                    {size:"<400px" , prop:{mobilePadState:true}},
                 ],
                 defState:{desktopMode:true , mobilePadState:false}
             }
