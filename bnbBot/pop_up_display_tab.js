@@ -264,10 +264,11 @@ __SYD.sydney_tradeMark = () =>{
     return  __c(
         "span",
         {
-            style:"position:absolute;bottom:5px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.3);font-size:12px;font-family:font2;font-style:italic;user-select:none;letter-spacing:1px;"
+            style:"position:absolute;bottom:5px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.3);font-size:12px;font-family:font2;font-style:italic;user-select:none;letter-spacing:1px;text-align:center;"
         },
         [
             "Powered by Sydney Algorithms"
         ]
     )
 }
+
