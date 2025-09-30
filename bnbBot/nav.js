@@ -224,9 +224,10 @@ __SYD.desktopNav_button = () =>{
         {
             events:{
                 onclick:e =>{
-                    location.href = 'https://t.me/dummy_test_bot_404_bot'
+                    location.href = 'http://t.me/BNBBOT_BSC_bot'
                 }
             }
         }
     )
 }
+
