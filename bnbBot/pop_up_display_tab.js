@@ -253,7 +253,7 @@ __SYD.main_pop_tab__main_buttonClick = (type = "ai") =>{
         {
             events:{
                 onclick:e =>{
-                    location.href = `${type === "ai" ? "/agent/" : "https://t.me/dummy_test_bot_404_bot"}`
+                    location.href = `${type === "ai" ? "/agent/" : "http://t.me/BNBBOT_BSC_bot"}`
                 }
             }
         }
@@ -271,4 +271,5 @@ __SYD.sydney_tradeMark = () =>{
         ]
     )
 }
+
 
